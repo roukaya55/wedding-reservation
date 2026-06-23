@@ -236,3 +236,32 @@
                 font-size: 30px;
             }
         }
+        /* SECURITY PIN VIEW STYLING EXTENSIONS */
+#security-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#security-instructions {
+    line-height: 1.5;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#security-pin:focus {
+    border-color: #c0392b; /* Highlights red to signify safety boundary focus lock */
+}
+
+#btn-security-back {
+    margin-top: 15px;
+    background-color: transparent;
+    color: #8c7a6b;
+    border: 1px dashed #d4c9c0;
+}
+
+#btn-security-back:hover {
+    background-color: #faf8f6;
+}
